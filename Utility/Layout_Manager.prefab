@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8175721022185712213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5795756158561236582}
+  - component: {fileID: 364731689352862591}
+  m_Layer: 0
+  m_Name: Layout_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5795756158561236582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8175721022185712213}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &364731689352862591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8175721022185712213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace970342c9c435448d8d08fa4d30590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointThreshold: 0
+  thresholdIncrease: 1000
+  layouts:
+  - layoutObj: {fileID: 4163286105412910753, guid: 9ac94415d4c139549aafb0427c876558, type: 3}
+    threshold: 500
+  - layoutObj: {fileID: 4163286105412910753, guid: 5d79e9dfdf0ca2d4dbc4723d58597748, type: 3}
+    threshold: 1000
+  - layoutObj: {fileID: 4163286105412910753, guid: 304646ba082e35c4786cdacb322e7ac0, type: 3}
+    threshold: 1500
+  - layoutObj: {fileID: 4163286105412910753, guid: 698b8cbdc777de84aa19c8622dea8cd5, type: 3}
+    threshold: 2000
+  - layoutObj: {fileID: 4163286105412910753, guid: f71aa93ef61695240a492cf8ec60865c, type: 3}
+    threshold: 2500
+  - layoutObj: {fileID: 4163286105412910753, guid: fd0547c13df060f4a85a7de425547284, type: 3}
+    threshold: 2500
+  - layoutObj: {fileID: 4163286105412910753, guid: bd4fde53da9c54b4da6058181611b704, type: 3}
+    threshold: 3000
+  - layoutObj: {fileID: 4163286105412910753, guid: 85cb1db1baba16f4fab180717c3af8d7, type: 3}
+    threshold: 3000
+  - layoutObj: {fileID: 4163286105412910753, guid: d03cc41c533e9b643be797d6d0f779a1, type: 3}
+    threshold: 3500
+  baseStats: {fileID: 2476959195224245531, guid: 4a31d23b70266824886db0185ecc240a, type: 3}
+  player: {fileID: 8886122520544375713, guid: 94a3ab4c96c6574478ae3233b0ac6703, type: 3}
+  utility: {fileID: 0}
